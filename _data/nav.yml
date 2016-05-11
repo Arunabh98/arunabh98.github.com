@@ -1,5 +1,4 @@
 main:
-    - { url: 'http://homepages.iitb.ac.in/~150070006/', text: 'Homepage'}
     - { url: '/', text: 'Blog' }
     - { url: '/about', text: 'About' }
     - { url: '/projects', text: 'Projects' }

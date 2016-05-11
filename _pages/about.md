@@ -1,7 +1,8 @@
 ---
 layout: inner
-title: About
+title: About Me
 permalink: /about/
+featured_image: /assets/img1.jpg
 ---
 
 Hello, This is Arunabh Ghosh, a First Year Electrical Engineering Student at IIT Bombay. 
