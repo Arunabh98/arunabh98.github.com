@@ -10,4 +10,4 @@ lead_text: 'Blog Initialized'
 
 Hello, This is my first blog post.
 
-Here I will be sharing all the interesting events that occurred or could have occurred in my life :P 
+Here I will be sharing all the interesting events that occurred or could have occurred or will be occurring in my life :P 
