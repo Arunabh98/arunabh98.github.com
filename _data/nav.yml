@@ -1,4 +1,4 @@
 main:
     - { url: '/', text: 'Blog' }
     - { url: '/about', text: 'About' }
-    - { url: '/projects', text: 'Projects' }
+    - { url: 'http://arunabh98.github.io/Projects/', text: 'Projects' }
