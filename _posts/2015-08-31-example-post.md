@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: 'My First Post'
-date: 2015-08-31 13:26:34
+date: 2016-05-11
 categories: blog development
 tags: self init
 featured_image: '/assets/profile.jpg'
