@@ -30,7 +30,7 @@ How is the impulse triggered?<br />
 Here we make use of 555 timer IC. 
 The figure shown below shows us the basic circuit.
 <br>
-![Timer-circuit](assets/image_0.jpg)
+<img src="assets/image_0.jpg" class="img-thumbnail" >
 
 <br>
 The main pin which is of interest to us is **PIN 2** - It turns on the output when the voltage supplied to it drops below 1/3 of Vcc.
@@ -57,7 +57,7 @@ Components Required
 
 Burglar Alarm Circuit Diagram
 -----------------------------
-![alarm-circuit](assets/image_1.gif)
+<img src="assets/image_1.gif" class="img-thumbnail" >
 
 Build the Circuit
 -----------------
