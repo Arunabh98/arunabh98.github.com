@@ -25,7 +25,7 @@ What does Raspberry Pi board look like?
 --------------------------------------
 The image given below is a top-view of Raspberry Pi 3 model B.
 
-![Raspberry Pi 3](assets/intro-rpi/image_0.png)
+<img src="assets/intro-rpi/image_0.png" class="img-thumbnail" ><br/>
 
 - The 40 pins shown at the top contain the Ground pins, I2C, SPI, GPIO pins, supply voltage pins.
 
@@ -37,7 +37,7 @@ The image given below is a top-view of Raspberry Pi 3 model B.
 
 
 Now lets have a closer look at those 40 pins. Here is a pin diagram of those 40 pins.
-![Raspberry Pi 3 Pin Diagram](assets/intro-rpi/image_1.png)
+<img src="assets/intro-rpi/image_1.png" class="img-thumbnail" ><br/>
 We can see that out of the 40 pins
 
 - 26 pins are GPIO pins
@@ -90,7 +90,7 @@ The GPIO.BCM option means that you are referring to the pins by the "Broadcom SO
 
 In the image below the numbers in the middle correspond to BOARD numbering and those written outside refer to BCM numbering.
 
-![Pin Numbering](assets/intro-rpi/image_2.png)
+<img src="assets/intro-rpi/image_2.png" class="img-thumbnail" ><br/>
 
 Based on which numbering system is comfortable to you, which RPi shield your are using, what program you are using you can choose the numbering sytem which is most convinient to you.
 
@@ -135,21 +135,21 @@ One important thing to note that after the program is terminated either on its o
 
 Here is an example of simple LED blink program in which the usage of each and every function will become clear
 
-{% highlight python %}
-    import RPi.GPIO as GPIO
-    import time
-    GPIO.setmode(GPIO.BCM)
-    GPIO.setup(4, GPIO.OUT)
+<pre>
+import RPi.GPIO as GPIO
+import time
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(4, GPIO.OUT)
 
-    try:
-        while True:
-        	GPIO.output(4, GPIO.HIGH)
-        	time.sleep(1)
-        	GPIO.output(4, GPIO.LOW)
-        	time.sleep(1)
-    except KeyboardInterrupt:
-    	GPIO.cleanup()
-{% endhighlight %}
+try:
+    while True:
+    	GPIO.output(4, GPIO.HIGH)
+    	time.sleep(1)
+    	GPIO.output(4, GPIO.LOW)
+    	time.sleep(1)
+except KeyboardInterrupt:
+	GPIO.cleanup()
+</pre>
 
 When we execute this program with a led at pin 4 we would see the LED blinking at a rate of 1 second. This program would go on for ever unless we terminate it by CTRL-C which is a KeyBoardInterrupt which then initiates the GPIO.cleanup function.
 
